@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Aula 2 -Tabelas</title>
+</head>
+
+<body>
+
+  <main>
+
+    <table>
+      <caption>
+        <h2>Clube Hércules</h2>
+      </caption>
+      <thead>
+        <tr>
+          <th class="border-none"></th>
+          <th>Basic</th>
+          <th>Family</th>
+          <th>Premium</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="destaque">Valor</td>
+          <td class="basic destaque">R$ 79,90</td>
+          <td class="family destaque">R$ 109,90</td>
+          <td class="premium destaque">R$ 189,90</td>
+        </tr>
+        <tr>
+          <td class="destaque">Quantidade</td>
+          <td>1 Pessoa</td>
+          <td>Até 2 Pessoas</td>
+          <td>Até 4 Pessoas</td>
+        </tr>
+        <tr>
+          <td class="destaque">Academia</td>
+          <td>3x Semana</td>
+          <td>4x Semana</td>
+          <td>5x Semana</td>
+        </tr>
+        <tr>
+          <td class="destaque">Crossfit</td>
+          <td colspan="2">Não Incluso</td>
+          <td>3x Semana</td>
+        </tr>
+        <tr>
+          <td class="destaque">Pilates</td>
+          <td colspan="2">2x Semana</td>
+          <td>3x Semana</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button class="basic destaque">Contratar</button></td>
+          <td><button class="family destaque">Contratar</button></td>
+          <td><button class="premium destaque">Contratar</button></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="5"><small>*Valores válidos para o 2º Semestre de 2023.</small></td>
+        </tr>
+      </tfoot>
+    </table>
+
+  </main>
+
+</body>
+
+</html>
