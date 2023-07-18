@@ -1,0 +1,95 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+  max-width: 100vw;
+  padding: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+fieldset {
+  padding: 2rem;
+}
+
+legend {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+form {
+  display: block;
+  width: 60%;
+  padding: 2rem;
+  margin: auto;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel],
+input[type=date],
+select {
+  font-size: 1rem;
+  width: 90%;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 2rem;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=radio] {
+  padding: 12px 5px;
+  margin-bottom: 2rem;
+}
+
+input[type=checkbox] {
+  width: 16px;
+  height: 16px;
+}
+
+#country {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent !important;
+}
+
+.buttons {
+  text-align: center;
+}
+
+#btnSave {
+  background-color: #4CAF50;
+}
+
+#btnClear {
+  background-color: #FFEB3B;
+}
+
+#btnCancel {
+  background-color: #F44336;
+}
+
+button {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 2rem;
+  margin-right: 0.5rem;
+  width: 8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
