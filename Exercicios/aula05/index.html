@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzaria ADA</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Pizzaria ADA - Cardápio Digital</h1>
+  </header>
+  <main>
+
+    <nav>
+      <ul>
+        <li><a href="#products">Produtos</a></li>
+        <li><a href="#prices">Tabela de Preços</a></li>
+        <li><a href="#form">Cadastro</a></li>
+      </ul>
+    </nav>
+
+    <section class="products" id="products">
+      <h2>Conheça os mais pedidos!</h2>
+      <figure class="product">
+        <img src="./assets/pizza-calabresa.jpg" alt="Pizza de Calabresa">
+        <div class="info">
+          <p class="title">Pizza de Calabresa</p>
+          <p>Molho de tomate, calabresa, mussarela e cebola</p>
+        </div>
+      </figure>
+
+      <figure class="product">
+        <img src="./assets/pizza-mussarela.jpg" alt="Pizza de Mussarela">
+        <div class="info">
+          <p class="title">Pizza de Mussarela</p>
+          <p>Molho de Tomate, mussarela, tomate e orégano</p>
+        </div>
+      </figure>
+      <figure class="product">
+        <img src="./assets/pizza-frango-catupiry.jpg" alt="Pizza de Frango com Catupiry">
+        <div class="info">
+          <p class="title">Pizza de Frango com Catupiry</p>
+          <p>Molho de tomate, frango, catupiry e milho</p>
+        </div>
+      </figure>
+      <figure class="product">
+        <img src="./assets/pizza-quatro-queijos.jpg" alt="Pizza de Quatro Queijos">
+        <div class="info">
+          <p class="title">Pizza de Quatro Queijos</p>
+          <p>Molho de tomate, mussarela, provolone, queijo prato e chedar</p>
+        </div>
+      </figure>
+
+      <figure class="product">
+        <img src="./assets/macarrao.jpg" alt="Macarrão à Bolonhesa">
+        <div class="info">
+          <p class="title">Macarrão à Bolonhesa</p>
+          <p>Macarrão Penne ao molho Bolonhesa</p>
+        </div>
+      </figure>
+    </section>
+
+    <section class="prices" id="prices">
+      <h2>Tabela de Preços</h2>
+      <table>
+        <thead>
+          <th>Produto</th>
+          <th>Preço</th>
+        </thead>
+        <tr>
+          <td>Pizza de Calabresa</td>
+          <td>R$ 30,00</td>
+        </tr>
+        <tr>
+          <td>Pizza de Mussarela</td>
+          <td>R$ 35,00</td>
+        </tr>
+        <tr>
+          <td>Pizza de Frango com Catupiry</td>
+          <td>R$ 35,00</td>
+        </tr>
+        <tr>
+          <td>Pizza de Quatro Queijos</td>
+          <td>R$ 40,00</td>
+        </tr>
+        <tr>
+          <td>Macarrão à Bolonhesa (500gr)</td>
+          <td>R$ 30,00</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="form" id="form">
+      <h2>Formulário de Cadastro</h2>
+      <form action="#" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone">
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+
+  </main>
+  <footer>
+    © 2023 Pizzaria ADA. Todos os direitos reservados.
+  </footer>
+
+</body>
+
+</html>

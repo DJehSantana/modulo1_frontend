@@ -1,0 +1,185 @@
+:root {
+  --text-color: #40362D;
+  --basic-color: #F2E6D8;
+  --primary-color: #D9C6A3;
+  --secondary-color: #BD7C50;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--basic-color);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: var(--secondary-color);
+  padding: 32px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  background-color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 16px 16px;
+  display: inline-block;
+}
+
+li:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.products {
+  padding: 20px;
+}
+
+.products h2 {
+  margin-bottom: 32px;
+}
+
+.product {
+  border-bottom: 1px solid var(--text-color);
+  width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+  background-color: var(--primary-color);
+}
+
+.product:last-child {
+  border: none;
+}
+
+.product img {
+  width: 150px;
+  height: 120px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.info {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.info p {
+  font-size: 1.2rem;
+  margin: 0;
+  margin-top: 24px;
+  margin-left: 16px;
+}
+
+.prices {
+  width: 900px;
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 16px;
+  text-align: left;
+}
+
+th {
+  background-color: var(--primary-color);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+td {
+  background-color: white;
+}
+
+table tr td:nth-child(2) {
+  text-align: center;
+}
+
+.form {
+  width: 900px;
+  margin: auto;
+}
+
+.form h2 {
+  margin-top: 2rem;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type=submit] {
+  width: 180px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+  padding: 18px 24px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.7;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  padding: 10px;
+  text-align: center;
+}
